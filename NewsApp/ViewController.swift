@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,7 +19,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func didTapNextButton(_ sender: Any) {
-        
         performSegue(withIdentifier: "showNextControllerSeque", sender: nil)
     }
     

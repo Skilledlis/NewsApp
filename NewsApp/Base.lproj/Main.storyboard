@@ -57,12 +57,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="0id-4T-iYL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actor" translatesAutoresizingMaskIntoConstraints="NO" id="0id-4T-iYL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0id-4T-iYL" firstAttribute="leading" secondItem="9qw-hG-6vd" secondAttribute="leading" id="9pj-MN-f4P"/>
+                            <constraint firstItem="0id-4T-iYL" firstAttribute="top" secondItem="iAK-yz-XWy" secondAttribute="topMargin" id="XDg-Ks-lMu"/>
+                            <constraint firstItem="0id-4T-iYL" firstAttribute="centerX" secondItem="iAK-yz-XWy" secondAttribute="centerX" id="etb-Nu-gPg"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="0id-4T-iYL" secondAttribute="bottom" id="gVD-OE-1gR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9qw-hG-6vd"/>
                     </view>
                     <navigationItem key="navigationItem" id="OCq-0l-xqU"/>
@@ -73,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="771.66668701171875" height="1109.6666259765625"/>
+        <image name="actor" width="343.66665649414062" height="320.66665649414062"/>
     </resources>
 </document>
