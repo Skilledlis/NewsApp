@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let showNextControllerSeque = "showNextControllerSeque"
+    
 
     @IBOutlet weak var nextButton: UIButton!
     
@@ -19,7 +22,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func didTapNextButton(_ sender: Any) {
-        performSegue(withIdentifier: "showNextControllerSeque", sender: nil)
+        performSegue(withIdentifier: showNextControllerSeque, sender: nil)
     }
     
 
